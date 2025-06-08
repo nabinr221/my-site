@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Nunito", sans-serif;
+}
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navlink {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #d02e67;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.navlink:hover::after,
+.navlink.active::after {
+  visibility: visible;
+  width: 100%;
+}
+
+.tect-stack:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.experienceCard:nth-child(even) {
+  background-color: rgb(250, 250, 250);
+}
+.experienceCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
