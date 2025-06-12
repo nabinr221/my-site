@@ -3,13 +3,13 @@ import { techStack } from "../../config/teckSatck";
 
 const TechStack = () => {
   return (
-    <div className="w-full ">
+    <div className="w-full p-5 ">
       <Title
         title="Tech Stack"
         subtitle=" Technologies I’ve been working with recently"
         className="items-center text-center "
       />
-      <div className="w-full flex flex-wrap gap-5 sm:gap-10  mt-6 sm:mt-20 justify-center ">
+      <div className="w-full grid grid-cols-2 md:grid-cols-5 gap-5  mt-6 sm:mt-20 justify-center ">
         {techStack.map((item, index) => (
           <div
             key={index}

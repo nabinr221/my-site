@@ -5,7 +5,7 @@ import { projects } from "../../config/projects";
 
 const ProjectSection = () => {
   return (
-    <div className="w-full sm:w-[80%] mx-auto">
+    <div className="w-[90%] sm:w-[80%] mx-auto">
       <Title
         title="Projects"
         subtitle="A showcase of things I’ve built and contributed to."

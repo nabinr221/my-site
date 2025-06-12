@@ -6,7 +6,7 @@ import { Github } from "lucide-react";
 const ProjectCards = ({ data }) => {
   return (
     <div className="w-full h-fit card card-compact rounded-none bg-base-100 shadow-lg hover:shadow-2xl transition-all duration-500">
-      <div className="w-full h-[15rem]">
+      <div className="w-full h-[10rem] md:h-[15rem] p-2">
         <img
           src={data?.image}
           alt="Project"
