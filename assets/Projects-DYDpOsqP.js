@@ -1,4 +1,4 @@
-import{j as e,S as n,C as s,T as i,p as o,a as l}from"./index-DlHFLAg6.js";const c=()=>e.jsxs(e.Fragment,{children:[e.jsx(n,{title:"Nabin Ratgainya | Web Developer",author:"Nabin R. Chaudhary",description:` I'm a passionate full-stack developer with a strong foundation in
+import{j as e,S as n,C as s,T as i,p as o,a as l}from"./index-B-KwnU4J.js";const c=()=>e.jsxs(e.Fragment,{children:[e.jsx(n,{title:"Nabin Ratgainya | Web Developer",author:"Nabin R. Chaudhary",description:` I'm a passionate full-stack developer with a strong foundation in
             JavaScript, React, Node.js, and modern web technologies. I enjoy
             building intuitive user interfaces, solving complex backend challenges,
             and continuously learning to stay current with the tech landscape. I
